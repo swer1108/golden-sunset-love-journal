@@ -84,6 +84,24 @@
 
     filter: blur(12px);
         }
+        
+.ocean::after {
+    content: "";
+    position: absolute;
+    inset: 8% 0 0;
+
+    background: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 13px,
+        rgba(255, 222, 157, 0.22) 14px,
+        transparent 16px,
+        transparent 24px
+    );
+
+    opacity: 0.75;
+}
+
     </style>
 </head>
 
